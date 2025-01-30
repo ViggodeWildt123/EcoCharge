@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -86,4 +90,8 @@ footer {
 
 .logo{
     width:75px;
+}
+
+.line-height{
+    line-height: 40px;
 }
