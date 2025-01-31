@@ -11,10 +11,11 @@ body {
 }
 
 header {
-    background-color: #00921b;
+    background-color: #00921B;
     color: white;
     padding: 10px 20px;
     text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
 }
 
 nav {
@@ -43,8 +44,8 @@ li {
 
 .cta-button {
     display: inline-block;
-    background: #00ae20;
-    color: white;
+    background: #EDF900;
+    color: black;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -52,7 +53,8 @@ li {
 }
 
 .cta-button:hover {
-    background: #e67e22;
+    background: #f4ff25;
+    color:black
 }
 
 .product-image {
