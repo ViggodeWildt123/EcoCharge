@@ -164,6 +164,9 @@ footer {
     animation: fadeIn 1s ease-in forwards;
 }
 
+.donate-button:hover{
+    cursor:copy;
+}
 
 @keyframes slideUp {
     from { transform: translateY(50px); opacity: 0; }
