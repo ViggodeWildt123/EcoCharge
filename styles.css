@@ -30,10 +30,13 @@ nav a {
     text-decoration: none;
     margin: 0 15px;
     font-size: 16px;
+    transition: 0.5s;
 }
 
 nav a:hover {
     text-decoration: underline;
+    font-size: 32px;
+    transition: 0.5s;
 }
 
 li {
@@ -64,6 +67,12 @@ li {
     display: block;     
     border-radius: 10px;   
     gap:20px;
+    transition: 0.5s;
+}
+
+.product-image:hover{
+    box-shadow: 10px 10px 10px gray;
+    transition: 0.5s;
 }
 
 
@@ -96,4 +105,83 @@ footer {
 
 .line-height{
     line-height: 40px;
+}
+
+.donation-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.donate-button {
+    background: #EDF900;
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: pulse 1.5s infinite;
+}
+
+.donate-button:hover {
+    transform: scale(1.1);
+    background: #f4ff25;
+}
+
+.donation-section {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    animation: slideUp 1s ease-in-out;
+}
+
+.rewards {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.rewards p {
+    font-size: 16px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: background-color 0.3s;
+}
+
+.rewards p:hover {
+    background-color: #e0e0e0;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+
+@keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
