@@ -75,6 +75,29 @@ li {
     transition: 0.5s;
 }
 
+.backgound-img{
+    color: white;
+    padding:100px;
+    background-image:url(lampje.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 1792px 810px;
+}
+
+#how-it-works{
+    background: #3B4255;
+    padding:100px;
+    background-image:url(werkendeman.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 600px 500px;
+    border-radius: 20px;
+    color: white;
+}
+
+.container{
+    width:50%;
+}
 
 section {
     padding: 20px;
@@ -165,7 +188,22 @@ footer {
 }
 
 .donate-button:hover{
-    cursor:copy;
+    cursor:pointer;
+}
+
+.backgound{
+    background: #2c3e50;
+    width: 100%;
+}
+
+.donation{
+    background: #3B4255;
+    padding:100px;
+    background-image:url(spaarvarken.jpg);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 700px 500px;
+    border-radius: 20px;
 }
 
 @keyframes slideUp {
